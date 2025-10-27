@@ -1237,7 +1237,6 @@ export default function ThreeBackground() {
       g.current.rotation.y += dt * 0.06;
       const s = scrollRef.current;
       g.current.rotation.x = s * 0.18;
-      g.current.rotation.y += s * 0.22;
     });
 
     return (
