@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* hide scrollbars on WebKit (visual polish) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.45);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(2, 6, 23, 0.7);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 40px 40px, 40px 40px;
+  background-position: -1px -1px, -1px -1px;
+}
