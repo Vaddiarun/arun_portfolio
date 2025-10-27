@@ -21,6 +21,7 @@ const skillIcons = {
   "AWS Amplify": { icon: FaAws, hue: 30 },
   "Git": { icon: FaGitAlt, hue: 15 },
   "Bitbucket": { icon: FaGitAlt, hue: 210 },
+  "Jira": { icon: FaDatabase, hue: 240 },
   "SQLite": { icon: FaDatabase, hue: 200 }
 };
 

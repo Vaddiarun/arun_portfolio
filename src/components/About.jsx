@@ -31,7 +31,10 @@ export default function About() {
           <div className="md:col-span-3">
             <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur px-6 py-6">
               <p className="text-slate-300 leading-relaxed">
-                {profile.headline}
+                Frontend Developer with 2 years of experience specializing in React.js, Tailwind CSS, and modern web technologies. I build responsive, user-centric applications with focus on performance and scalability.
+              </p>
+              <p className="text-slate-300 leading-relaxed mt-4">
+                Currently at GND Solutions, developing IoT platform interfaces and real-time data visualization systems. Experienced in AWS deployment, API integration, and cross-browser compatibility.
               </p>
 
               <ul className="mt-6 space-y-3">
@@ -83,7 +86,7 @@ export default function About() {
                   <p><span className="text-slate-400">Location:</span> {profile.location}</p>
                 </div>
                 <div className="mt-6 text-sm text-slate-400">
-                  {profile.education[0].degree} — {profile.education[0].institution}
+                  {profile.education[0].degree} -  {profile.education[0].institution}
                 </div>
               </div>
             </div>

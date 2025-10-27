@@ -39,7 +39,7 @@ export const profile = {
     stateManagement: ["Redux", "Redux Persister"],
     apis: ["REST API", "RESTful APIs", "Google Maps API"],
     visualization: ["ApexCharts", "Recharts"],
-    tools: ["AWS Amplify", "Git", "Bitbucket"],
+    tools: ["AWS Amplify", "Git", "Bitbucket", "Jira"],
     databases: ["SQLite"]
   },
   
