@@ -35,9 +35,10 @@ export const profile = {
   ],
   
   skills: {
-    frontend: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "React.js"],
+    frontend: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "React.js", "Vite"],
     stateManagement: ["Redux", "Redux Persister"],
-    apis: ["REST API", "RESTful APIs"],
+    apis: ["REST API", "RESTful APIs", "Google Maps API"],
+    visualization: ["ApexCharts", "Recharts"],
     tools: ["AWS Amplify", "Git", "Bitbucket"],
     databases: ["SQLite"]
   },
