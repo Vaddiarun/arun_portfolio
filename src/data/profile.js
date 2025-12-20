@@ -76,7 +76,7 @@ export const profile = {
   
   projects: [
     {
-      name: "THINXFRESH IoT Fleet Management Dashboard",
+      name: "Realtime Tracker with Hum and Temp",
       url: "#",
       description: "Comprehensive IoT fleet management web application for tracking and monitoring sensor-equipped vehicles in real-time, featuring advanced mapping capabilities, trip analytics, and multi-user dashboard functionality",
       technologies: ["React.js", "Google Maps API", "JavaScript (ES6+)", "Tailwind CSS", "Vite", "ApexCharts", "Recharts", "AWS Amplify"],
