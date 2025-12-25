@@ -4,7 +4,7 @@ export const profile = {
   role: "Frontend Developer",
   email: "careerarun9@gmail.com",
   phone: "+91 7989759695",
-  location: "Rayadurgam, Andhra Pradesh, 515865",
+  location: "Thanisandara Benguluru 560068",
   linkedin: "https://www.linkedin.com/in/vaddi-arun-238a6222a",
   headline: "Frontend Developer with 2+ years of experience in React.js, Tailwind CSS, AWS Amplify, and IoT Platforms. Specialized in building responsive, user-centric web applications with real-time data integration.",
   imgUrl: "/profile-pic.png",
