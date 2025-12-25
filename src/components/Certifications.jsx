@@ -13,7 +13,7 @@ export default function Certifications() {
             <motion.div
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: true, amount: 0.25 }}
+                viewport={{ once: true, amount: 0 }}
                 variants={container}
                 className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"
             >
