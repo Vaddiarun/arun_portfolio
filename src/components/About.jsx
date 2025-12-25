@@ -31,7 +31,7 @@ export default function About() {
           <div className="md:col-span-3">
             <div className="rounded-3xl border border-white/10 bg-slate-950/50 backdrop-blur px-6 py-6 h-full">
               <p className="text-slate-300 leading-relaxed">
-                Frontend Developer with 2 years of experience specializing in React.js, Tailwind CSS, and modern web technologies. I build responsive, user-centric applications with focus on performance and scalability.
+                Frontend Developer with 2.8+ years of experience specializing in React.js, Tailwind CSS, and modern web technologies. I build responsive, user-centric applications with focus on performance and scalability.
               </p>
               <p className="text-slate-300 leading-relaxed mt-4">
                 Currently at GND Solutions, developing IoT platform interfaces and real-time data visualization systems. Experienced in AWS deployment, API integration, and cross-browser compatibility.
@@ -53,7 +53,7 @@ export default function About() {
 
               <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {[
-                  { k: "2+ yrs", v: "Experience" },
+                  { k: "2.8+ yrs", v: "Experience" },
                   { k: "React.js", v: "Frontend Expert" },
                   { k: "AWS", v: "Cloud Ready" },
                 ].map((s, i) => (

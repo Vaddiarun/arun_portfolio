@@ -6,7 +6,7 @@ export const profile = {
   phone: "+91 7989759695",
   location: "Thanisandara Benguluru 560068",
   linkedin: "https://www.linkedin.com/in/vaddi-arun-238a6222a",
-  headline: "Frontend Developer with 2+ years of experience in React.js, Tailwind CSS, AWS Amplify, and IoT Platforms. Specialized in building responsive, user-centric web applications with real-time data integration.",
+  headline: "Frontend Developer with 2.8+ years of experience in React.js, Tailwind CSS, AWS Amplify, and IoT Platforms. Specialized in building responsive, user-centric web applications with real-time data integration.",
   imgUrl: "/profile-pic.png",
 
   education: [
@@ -72,6 +72,16 @@ export const profile = {
         "Ensured cross-browser compatibility and optimized performance",
         "Applied version control practices using Git",
         "Participated in code reviews and provided feedback"
+      ]
+    },
+    {
+      company: "Oasis Infobyte",
+      position: "Web Developer Internship",
+      duration: "Jan 2022 - Nov 2022",
+      responsibilities: [
+        "Developed user-friendly web interfaces using modern frontend technologies",
+        "Assisted in debugging and optimizing web applications for better performance",
+        "Collaborated with the development team to implement responsive designs"
       ]
     }
   ],

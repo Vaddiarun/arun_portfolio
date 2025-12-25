@@ -33,7 +33,7 @@ export default function Hero() {
 
             <motion.div variants={itemUp} className="mt-6 grid grid-cols-3 max-w-md gap-3">
               {[
-                { k: "2+ yrs", v: "Experience" },
+                { k: "2.8+ yrs", v: "Experience" },
                 { k: "React.js", v: "Frontend Expert" },
                 { k: "AWS", v: "Cloud Ready" },
               ].map((s, i) => (
