@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import {
-  FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaGitAlt, FaAws, FaDatabase
+  FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaJs, FaGitAlt, FaAws, FaDatabase, FaNodeJs
 } from "react-icons/fa";
 import {
-  SiTailwindcss, SiRedux
+  SiTailwindcss, SiRedux, SiExpress
 } from "react-icons/si";
 import { profile } from '../data/profile';
 
@@ -14,6 +14,9 @@ const skillIcons = {
   "Tailwind CSS": { icon: SiTailwindcss, hue: 195 },
   "JavaScript": { icon: FaJs, hue: 45 },
   "React.js": { icon: FaReact, hue: 190 },
+  "React Native": { icon: FaReact, hue: 200 },
+  "Node.js": { icon: FaNodeJs, hue: 120 },
+  "Express.js": { icon: SiExpress, hue: 0 },
   "Redux": { icon: SiRedux, hue: 270 },
   "Redux Persister": { icon: SiRedux, hue: 285 },
   "REST API": { icon: FaJs, hue: 120 },
@@ -37,7 +40,7 @@ function colors(h) {
 
 export default function Skills() {
   const allSkills = [];
-  
+
   Object.entries(profile.skills).forEach(([category, skills]) => {
     skills.forEach(skill => {
       const iconData = skillIcons[skill];
@@ -74,12 +77,12 @@ export default function Skills() {
                 <div className="group relative rounded-xl p-[1px] bg-gradient-to-br from-white/20 via-white/5 to-transparent transition-all duration-300 hover:scale-105">
                   <div className="rounded-xl border border-white/10 bg-slate-950/70 backdrop-blur px-3 py-4 text-center shadow-lg group-hover:shadow-xl transition-all duration-300">
                     <div className="mx-auto relative flex h-10 w-10 items-center justify-center mb-2">
-                      <span 
-                        className="absolute inset-0 rounded-lg blur-lg opacity-30 group-hover:opacity-50 transition-opacity" 
+                      <span
+                        className="absolute inset-0 rounded-lg blur-lg opacity-30 group-hover:opacity-50 transition-opacity"
                         style={{ backgroundColor: halo }}
-                        aria-hidden 
+                        aria-hidden
                       />
-                      <div 
+                      <div
                         className="relative flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/5"
                         style={{ background: gradient }}
                       >

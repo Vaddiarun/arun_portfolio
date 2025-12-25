@@ -17,7 +17,10 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-30" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
               </span>
-              Available for work
+              <a href="https://gndsolutions.in/" target="_blank" rel="noopener noreferrer" >
+                Working At GND SOLUTIONS INDIA PVT. LTD.
+              </a>
+
             </motion.div>
 
             <motion.h1 variants={itemUp} className="mt-4 text-4xl sm:text-6xl font-display font-extrabold leading-tight text-slate-50">

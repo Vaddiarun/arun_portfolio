@@ -23,9 +23,9 @@ export default function Projects() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {profile.projects.map((project, idx) => (
-            <motion.div key={idx} variants={item} className="group">
-              <div className="relative rounded-2xl p-[1px] bg-gradient-to-br from-white/20 via-white/5 to-transparent transition-all duration-300 hover:scale-105">
-                <div className="rounded-2xl border border-white/10 bg-slate-950/70 backdrop-blur p-6 h-full">
+            <motion.div key={idx} variants={item} className="group h-full">
+              <div className="relative rounded-2xl p-[1px] bg-gradient-to-br from-white/20 via-white/5 to-transparent transition-all duration-300 hover:scale-105 h-full">
+                <div className="rounded-2xl border border-white/10 bg-slate-950/70 backdrop-blur p-6 h-full flex flex-col">
                   <div className="flex items-start justify-between mb-4">
                     <h3 className="text-xl font-semibold text-white group-hover:text-cyan-400 transition-colors">
                       {project.name}
@@ -67,7 +67,7 @@ export default function Projects() {
                     </ul>
                   </div>
 
-                  <div className="flex flex-wrap gap-1">
+                  <div className="flex flex-wrap gap-1 mt-auto">
                     {project.technologies.slice(0, 4).map((tech, i) => (
                       <span
                         key={i}
