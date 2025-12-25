@@ -1,25 +1,4 @@
-// import { motion } from "framer-motion";
 
-// export default function Contact() {
-//   return (
-//     <motion.div
-//       initial={{ opacity: 0, y: 20 }}
-//       whileInView={{ opacity: 1, y: 0 }}
-//       viewport={{ once: true }}
-//       transition={{ duration: 0.8 }}
-//       className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20"
-//     >
-//       <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur p-6 text-center">
-//         <h2 className="text-3xl font-display font-bold">Let’s build something great</h2>
-//         <p className="mt-3 text-slate-300">I’m open to full‑time and freelance roles in product design and front‑end integration.</p>
-//         <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
-//           <a href="mailto:ponugotiakhila2002@gmail.com" className="px-5 py-3 rounded-2xl bg-brand-600 hover:bg-brand-500 transition">Email me</a>
-//           <a href="tel:+916036001929" className="px-5 py-3 rounded-2xl border border-white/10 hover:border-brand-400/60 transition">Call / WhatsApp</a>
-//         </div>
-//       </div>
-//     </motion.div>
-//   );
-// }
 import { motion } from "framer-motion";
 
 export default function Contact() {
@@ -44,7 +23,7 @@ export default function Contact() {
 
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
-                href="mailto:ponugotiakhila2002@gmail.com"
+                href="mailto:careerarun9@gmail.com"
                 className="px-5 py-3 rounded-2xl text-sm font-medium text-white
                            bg-gradient-to-r from-cyan-500 to-fuchsia-500
                            shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40
