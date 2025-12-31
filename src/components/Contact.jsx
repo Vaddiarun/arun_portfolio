@@ -17,9 +17,9 @@ export default function Contact() {
             <h2 id="contact-title" className="mt-2 text-3xl font-display font-bold text-slate-50">
               Let’s build something great
             </h2>
-            <p className="mt-3 text-slate-300">
-              Open to full-time and freelance roles in product design and front-end integration.
-            </p>
+            {/* <p className="mt-3 text-slate-300">
+              Open to full-time roles in Full Stack development.
+            </p> */}
 
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
